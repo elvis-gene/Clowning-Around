@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include
 
 from clowning_around.users.views import (
     user_redirect_view,
